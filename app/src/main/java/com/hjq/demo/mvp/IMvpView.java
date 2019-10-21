@@ -3,8 +3,8 @@ package com.hjq.demo.mvp;
 import android.content.Context;
 
 /**
- *    author : Android 轮子哥
- *    github : https://github.com/getActivity/AndroidProject
+ *    author : Android
+ *    github : https://github.com/renw7/AndroidProject
  *    time   : 2018/11/17
  *    desc   : MVP 通用性接口
  */

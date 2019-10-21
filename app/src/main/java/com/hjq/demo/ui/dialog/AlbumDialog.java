@@ -21,8 +21,8 @@ import com.hjq.image.ImageLoader;
 import java.util.List;
 
 /**
- *    author : Android 轮子哥
- *    github : https://github.com/getActivity/AndroidProject
+ *    author : Android
+ *    github : https://github.com/renw7/AndroidProject
  *    time   : 2019/07/27
  *    desc   : 相册专辑选取对话框
  */

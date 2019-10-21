@@ -3,8 +3,8 @@ package com.hjq.demo.other;
 import com.hjq.demo.BuildConfig;
 
 /**
- *    author : Android 轮子哥
- *    github : https://github.com/getActivity/AndroidProject
+ *    author : Android
+ *    github : https://github.com/renw7/AndroidProject
  *    time   : 2019/09/02
  *    desc   : App 配置管理类
  */

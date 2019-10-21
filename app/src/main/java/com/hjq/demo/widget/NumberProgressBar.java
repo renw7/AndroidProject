@@ -13,8 +13,8 @@ import android.view.View;
 import com.hjq.demo.R;
 
 /**
- *    author : Android 轮子哥
- *    github : https://github.com/getActivity/AndroidProject
+ *    author : Android
+ *    github : https://github.com/renw7/AndroidProject
  *    time   : 2019/02/20
  *    desc   : 数字进度条
  */

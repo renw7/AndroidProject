@@ -6,8 +6,8 @@ import android.app.Application;
 import androidx.collection.ArrayMap;
 
 /**
- *    author : Android 轮子哥
- *    github : https://github.com/getActivity/AndroidProject
+ *    author : Android
+ *    github : https://github.com/renw7/AndroidProject
  *    time   : 2018/11/18
  *    desc   : Activity 栈管理
  */

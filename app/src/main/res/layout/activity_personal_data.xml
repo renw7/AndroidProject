@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         app:bar_leftText="@string/personal_data_name"
         app:bar_rightHint="@string/personal_data_name_hint"
-        app:bar_rightText="Android 轮子哥" />
+        app:bar_rightText="Android " />
 
     <com.hjq.widget.layout.SettingBar
         android:id="@+id/sb_person_data_address"

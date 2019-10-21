@@ -43,8 +43,8 @@ import butterknife.BindView;
 import butterknife.OnClick;
 
 /**
- *    author : Android 轮子哥
- *    github : https://github.com/getActivity/AndroidProject
+ *    author : Android
+ *    github : https://github.com/renw7/AndroidProject
  *    time   : 2019/07/24
  *    desc   : 图片选择
  */

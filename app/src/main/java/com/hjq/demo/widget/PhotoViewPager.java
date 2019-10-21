@@ -7,8 +7,8 @@ import android.view.MotionEvent;
 import androidx.viewpager.widget.ViewPager;
 
 /**
- *    author : Android 轮子哥
- *    github : https://github.com/getActivity/AndroidProject
+ *    author : Android
+ *    github : https://github.com/renw7/AndroidProject
  *    time   : 2019/05/07
  *    desc   : ViewPager 中使用 PhotoView 时出现 pointerIndex out of range 异常
  */

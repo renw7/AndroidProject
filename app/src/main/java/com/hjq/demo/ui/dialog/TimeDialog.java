@@ -15,8 +15,8 @@ import java.util.ArrayList;
 import java.util.Calendar;
 
 /**
- *    author : Android 轮子哥
- *    github : https://github.com/getActivity/AndroidProject
+ *    author : Android
+ *    github : https://github.com/renw7/AndroidProject
  *    time   : 2019/08/17
  *    desc   : 时间选择对话框
  */
