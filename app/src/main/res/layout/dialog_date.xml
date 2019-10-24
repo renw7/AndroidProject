@@ -7,7 +7,7 @@
     android:layout_gravity="bottom"
     android:background="@drawable/bg_dialog_rounded_corner"
     android:orientation="vertical"
-    tools:context="com.hjq.demo.ui.dialog.DateDialog">
+    tools:context="com.hjq.demo.com.chinaunicom.demo.ui.dialog.DateDialog">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -73,21 +73,21 @@
         android:paddingTop="15dp"
         android:paddingBottom="15dp">
 
-        <com.hjq.demo.widget.LoopView
+        <com.chinaunicom.marketing.widget.LoopView
             android:id="@+id/lv_date_year"
             android:layout_width="0px"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:lv_textSize="20sp" />
 
-        <com.hjq.demo.widget.LoopView
+        <com.chinaunicom.marketing.widget.LoopView
             android:id="@+id/lv_date_month"
             android:layout_width="0px"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:lv_textSize="20sp" />
 
-        <com.hjq.demo.widget.LoopView
+        <com.chinaunicom.marketing.widget.LoopView
             android:id="@+id/lv_date_day"
             android:layout_width="0px"
             android:layout_height="wrap_content"

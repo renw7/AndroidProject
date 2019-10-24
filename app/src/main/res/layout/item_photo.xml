@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".ui.adapter.PhotoAdapter">
+    tools:context="com.chinaunicom.marketing.ui.adapter.PhotoAdapter">
 
     <com.hjq.widget.view.ScaleImageView
         android:id="@+id/iv_photo_image"

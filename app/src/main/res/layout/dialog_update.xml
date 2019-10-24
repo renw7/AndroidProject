@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:orientation="vertical"
-    tools:context=".ui.dialog.UpdateDialog">
+    tools:context="com.chinaunicom.marketing.ui.dialog.UpdateDialog">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
@@ -59,7 +59,7 @@
             android:textSize="13sp"
             tools:text="更新内容" />
 
-        <com.hjq.demo.widget.NumberProgressBar
+        <com.chinaunicom.marketing.widget.NumberProgressBar
             android:id="@+id/pb_update_progress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

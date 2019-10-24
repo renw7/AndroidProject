@@ -8,7 +8,7 @@
     app:cardBackgroundColor="@color/white"
     app:cardCornerRadius="@dimen/dialog_message_round_size"
     app:cardElevation="0px"
-    tools:context="com.hjq.demo.ui.dialog.TimeDialog">
+    tools:context="com.hjq.demo.com.chinaunicom.demo.ui.dialog.TimeDialog">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,21 +34,21 @@
             android:paddingTop="15dp"
             android:paddingBottom="5dp">
 
-            <com.hjq.demo.widget.LoopView
+            <com.chinaunicom.marketing.widget.LoopView
                 android:id="@+id/lv_time_hour"
                 android:layout_width="0px"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:lv_textSize="18sp" />
 
-            <com.hjq.demo.widget.LoopView
+            <com.chinaunicom.marketing.widget.LoopView
                 android:id="@+id/lv_time_minute"
                 android:layout_width="0px"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:lv_textSize="18sp" />
 
-            <com.hjq.demo.widget.LoopView
+            <com.chinaunicom.marketing.widget.LoopView
                 android:id="@+id/lv_time_second"
                 android:layout_width="0px"
                 android:layout_height="wrap_content"

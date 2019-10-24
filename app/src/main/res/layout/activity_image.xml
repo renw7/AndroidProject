@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#363636"
-    tools:context=".ui.activity.ImageActivity">
+    tools:context="com.chinaunicom.marketing.ui.activity.ImageActivity">
 
-    <com.hjq.demo.widget.PhotoViewPager
+    <com.chinaunicom.marketing.widget.PhotoViewPager
         android:id="@+id/vp_image_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
