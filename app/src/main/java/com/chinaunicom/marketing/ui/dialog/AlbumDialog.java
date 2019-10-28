@@ -13,10 +13,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.chinaunicom.marketing.common.MyDialogFragment;
 import com.chinaunicom.marketing.common.MyRecyclerViewAdapter;
-import com.hjq.base.BaseDialog;
-import com.hjq.base.BaseRecyclerViewAdapter;
+import com.chinaunicom.base.BaseDialog;
+import com.chinaunicom.base.BaseRecyclerViewAdapter;
 import com.hjq.demo.R;
-import com.hjq.image.ImageLoader;
+import com.chinaunicom.image.ImageLoader;
 
 import java.util.List;
 

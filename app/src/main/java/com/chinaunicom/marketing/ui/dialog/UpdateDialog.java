@@ -21,7 +21,7 @@ import androidx.fragment.app.FragmentActivity;
 
 import com.chinaunicom.marketing.common.MyDialogFragment;
 import com.chinaunicom.marketing.widget.NumberProgressBar;
-import com.hjq.base.BaseDialog;
+import com.chinaunicom.base.BaseDialog;
 import com.hjq.demo.R;
 import com.hjq.permissions.OnPermission;
 import com.hjq.permissions.Permission;

@@ -17,11 +17,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.chinaunicom.marketing.common.MyDialogFragment;
 import com.chinaunicom.marketing.common.MyRecyclerViewAdapter;
-import com.hjq.base.BaseRecyclerViewAdapter;
+import com.chinaunicom.base.BaseRecyclerViewAdapter;
 import com.hjq.demo.R;
-import com.hjq.umeng.Platform;
-import com.hjq.umeng.UmengClient;
-import com.hjq.umeng.UmengShare;
+import com.chinaunicom.umeng.Platform;
+import com.chinaunicom.umeng.UmengClient;
+import com.chinaunicom.umeng.UmengShare;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -8,7 +8,7 @@ import androidx.fragment.app.FragmentActivity;
 
 import com.chinaunicom.marketing.common.MyDialogFragment;
 import com.chinaunicom.marketing.widget.LoopView;
-import com.hjq.base.BaseDialog;
+import com.chinaunicom.base.BaseDialog;
 import com.hjq.demo.R;
 
 import java.text.SimpleDateFormat;

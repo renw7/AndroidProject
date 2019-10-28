@@ -2,7 +2,7 @@ package com.chinaunicom.marketing.ui.example;
 
 import androidx.core.content.ContextCompat;
 
-import com.hjq.base.BaseDialog;
+import com.chinaunicom.base.BaseDialog;
 import com.hjq.demo.R;
 import com.chinaunicom.marketing.common.MyActivity;
 import com.chinaunicom.marketing.ui.dialog.MenuDialog;

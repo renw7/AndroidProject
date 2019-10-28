@@ -6,10 +6,10 @@ import android.widget.ImageView;
 import com.chinaunicom.marketing.common.MyActivity;
 import com.chinaunicom.marketing.ui.dialog.AddressDialog;
 import com.chinaunicom.marketing.ui.dialog.InputDialog;
-import com.hjq.base.BaseDialog;
+import com.chinaunicom.base.BaseDialog;
 import com.hjq.demo.R;
-import com.hjq.image.ImageLoader;
-import com.hjq.widget.layout.SettingBar;
+import com.chinaunicom.image.ImageLoader;
+import com.chinaunicom.widget.layout.SettingBar;
 
 import java.util.List;
 

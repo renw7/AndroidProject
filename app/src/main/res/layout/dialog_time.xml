@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.hjq.widget.view.SmartTextView
+        <com.chinaunicom.widget.view.SmartTextView
             android:id="@+id/tv_time_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
             android:layout_height="48dp"
             android:orientation="horizontal">
 
-            <com.hjq.widget.view.SmartTextView
+            <com.chinaunicom.widget.view.SmartTextView
                 android:id="@+id/tv_time_cancel"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

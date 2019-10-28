@@ -8,7 +8,7 @@ import com.chinaunicom.marketing.ui.example.HomeActivity;
 import com.chinaunicom.marketing.ui.example.PhotoActivity;
 import com.hjq.demo.R;
 import com.chinaunicom.marketing.common.MyLazyFragment;
-import com.hjq.image.ImageLoader;
+import com.chinaunicom.image.ImageLoader;
 import com.hjq.permissions.OnPermission;
 import com.hjq.permissions.Permission;
 import com.hjq.permissions.XXPermissions;

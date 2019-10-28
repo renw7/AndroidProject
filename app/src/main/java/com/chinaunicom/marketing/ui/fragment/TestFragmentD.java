@@ -14,7 +14,7 @@ import com.chinaunicom.marketing.ui.example.PhoneVerifyActivity;
 import com.chinaunicom.marketing.ui.example.SettingActivity;
 import com.chinaunicom.marketing.ui.example.StatusActivity;
 import com.chinaunicom.marketing.ui.example.WebActivity;
-import com.hjq.base.BaseDialog;
+import com.chinaunicom.base.BaseDialog;
 import com.hjq.demo.R;
 import com.chinaunicom.marketing.common.MyLazyFragment;
 import com.chinaunicom.marketing.ui.example.PasswordResetActivity;

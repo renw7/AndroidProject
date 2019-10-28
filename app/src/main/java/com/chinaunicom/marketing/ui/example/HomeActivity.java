@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.hjq.base.BaseFragmentAdapter;
+import com.chinaunicom.base.BaseFragmentAdapter;
 import com.hjq.demo.R;
 import com.chinaunicom.marketing.common.MyActivity;
 import com.chinaunicom.marketing.common.MyLazyFragment;

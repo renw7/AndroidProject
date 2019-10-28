@@ -11,7 +11,7 @@
     android:paddingRight="15dp"
     tools:context="com.chinaunicom.marketing.ui.dialog.AlbumDialog">
 
-    <com.hjq.widget.view.ScaleImageView
+    <com.chinaunicom.widget.view.ScaleImageView
         android:id="@+id/iv_album_icon"
         android:layout_width="80dp"
         android:layout_height="80dp"

@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 import androidx.fragment.app.FragmentActivity;
 
-import com.hjq.base.BaseDialogFragment;
+import com.chinaunicom.base.BaseDialogFragment;
 import com.hjq.toast.ToastUtils;
 
 import butterknife.ButterKnife;

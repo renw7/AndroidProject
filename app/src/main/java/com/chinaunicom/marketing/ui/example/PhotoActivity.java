@@ -18,9 +18,9 @@ import androidx.core.content.FileProvider;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.hjq.base.BaseActivity;
-import com.hjq.base.BaseDialog;
-import com.hjq.base.BaseRecyclerViewAdapter;
+import com.chinaunicom.base.BaseActivity;
+import com.chinaunicom.base.BaseDialog;
+import com.chinaunicom.base.BaseRecyclerViewAdapter;
 import com.hjq.demo.R;
 import com.chinaunicom.marketing.common.MyActivity;
 import com.chinaunicom.marketing.other.AppConfig;

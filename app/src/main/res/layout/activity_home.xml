@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context="com.chinaunicom.marketing.ui.example.HomeActivity">
 
-    <com.hjq.widget.layout.NoScrollViewPager
+    <com.chinaunicom.widget.layout.NoScrollViewPager
         android:id="@+id/vp_home_pager"
         android:layout_width="match_parent"
         android:layout_height="0px"

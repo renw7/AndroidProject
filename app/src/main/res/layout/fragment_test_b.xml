@@ -58,7 +58,7 @@
 
                 </androidx.cardview.widget.CardView>
 
-                <com.hjq.widget.view.ScaleImageView
+                <com.chinaunicom.widget.view.ScaleImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_marginLeft="20dp"
@@ -70,7 +70,7 @@
 
             </LinearLayout>
 
-            <com.hjq.widget.layout.SettingBar
+            <com.chinaunicom.widget.layout.SettingBar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:clickable="true"
@@ -147,20 +147,20 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <com.hjq.widget.view.SwitchButton
+                <com.chinaunicom.widget.view.SwitchButton
                     android:id="@+id/sb_test_switch"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:checked="true" />
 
-                <com.hjq.widget.view.SwitchButton
+                <com.chinaunicom.widget.view.SwitchButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:checked="false" />
 
-                <com.hjq.widget.view.SwitchButton
+                <com.chinaunicom.widget.view.SwitchButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -177,17 +177,17 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <com.hjq.widget.view.CountdownView
+                <com.chinaunicom.widget.view.CountdownView
                     android:id="@+id/cv_test_countdown"
                     style="@style/CountdownViewStyle" />
 
-                <com.hjq.widget.view.CountdownView
+                <com.chinaunicom.widget.view.CountdownView
                     style="@style/CountdownViewStyle"
                     android:enabled="false" />
 
             </LinearLayout>
 
-            <com.hjq.widget.view.ClearEditText
+            <com.chinaunicom.widget.view.ClearEditText
                 style="@style/EditTextStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -196,7 +196,7 @@
                 android:layout_marginRight="40dp"
                 android:text="这是一个带清除的按钮的EditText" />
 
-            <com.hjq.widget.view.PasswordEditText
+            <com.chinaunicom.widget.view.PasswordEditText
                 style="@style/EditTextStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -207,7 +207,7 @@
                 android:maxLines="1"
                 android:text="78797078" />
 
-            <com.hjq.widget.view.RegexEditText
+            <com.chinaunicom.widget.view.RegexEditText
                 style="@style/EditTextStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -217,7 +217,7 @@
                 android:hint="这里只能输入手机号（只能以 1 开头）"
                 app:regexType="mobile" />
 
-            <com.hjq.widget.view.RegexEditText
+            <com.chinaunicom.widget.view.RegexEditText
                 style="@style/EditTextStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -226,7 +226,7 @@
                 android:hint="这里只能输入中文（普通的中文字符）"
                 app:regexType="chinese" />
 
-            <com.hjq.widget.view.RegexEditText
+            <com.chinaunicom.widget.view.RegexEditText
                 style="@style/EditTextStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -235,7 +235,7 @@
                 android:hint="这里只能输入英文（大写和小写的英文）"
                 app:regexType="english" />
 
-            <com.hjq.widget.view.RegexEditText
+            <com.chinaunicom.widget.view.RegexEditText
                 style="@style/EditTextStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -244,7 +244,7 @@
                 android:hint="这里只能输入数量（非 0 开头的数字）"
                 app:regexType="count" />
 
-            <com.hjq.widget.view.RegexEditText
+            <com.chinaunicom.widget.view.RegexEditText
                 style="@style/EditTextStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -253,7 +253,7 @@
                 android:hint="这里只能输入用户名（中文、英文、数字）"
                 app:regexType="name" />
 
-            <com.hjq.widget.view.RegexEditText
+            <com.chinaunicom.widget.view.RegexEditText
                 style="@style/EditTextStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -273,7 +273,7 @@
 
             <View style="@style/HorizontalLineStyle" />
 
-            <com.hjq.widget.square.SquareFrameLayout
+            <com.chinaunicom.widget.square.SquareFrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -286,9 +286,9 @@
                     android:text="这是一个正方形的FrameLayout"
                     android:textColor="@color/white" />
 
-            </com.hjq.widget.square.SquareFrameLayout>
+            </com.chinaunicom.widget.square.SquareFrameLayout>
 
-            <com.hjq.widget.square.SquareLinearLayout
+            <com.chinaunicom.widget.square.SquareLinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorAccent"
@@ -302,9 +302,9 @@
                     android:text="这是一个正方形的LinearLayout"
                     android:textColor="@color/white" />
 
-            </com.hjq.widget.square.SquareLinearLayout>
+            </com.chinaunicom.widget.square.SquareLinearLayout>
 
-            <com.hjq.widget.square.SquareRelativeLayout
+            <com.chinaunicom.widget.square.SquareRelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorButtonPressed">
@@ -316,15 +316,15 @@
                     android:text="这是一个正方形的RelativeLayout"
                     android:textColor="@color/white" />
 
-            </com.hjq.widget.square.SquareRelativeLayout>
+            </com.chinaunicom.widget.square.SquareRelativeLayout>
 
-            <com.hjq.widget.square.SquareImageView
+            <com.chinaunicom.widget.square.SquareImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
                 android:src="@drawable/bg_launcher" />
 
-            <com.hjq.widget.layout.RatioFrameLayout
+            <com.chinaunicom.widget.layout.RatioFrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorButtonPressed"
@@ -337,7 +337,7 @@
                     android:text="这是一个宽高比 2:1 的FrameLayout"
                     android:textColor="@color/white" />
 
-            </com.hjq.widget.layout.RatioFrameLayout>
+            </com.chinaunicom.widget.layout.RatioFrameLayout>
 
         </LinearLayout>
 

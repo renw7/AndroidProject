@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.hjq.widget.view.ClearEditText
+        <com.chinaunicom.widget.view.ClearEditText
             android:id="@+id/et_login_phone"
             style="@style/EditTextStyle"
             android:layout_width="match_parent"
@@ -52,7 +52,7 @@
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp" />
 
-        <com.hjq.widget.view.PasswordEditText
+        <com.chinaunicom.widget.view.PasswordEditText
             android:id="@+id/et_login_password"
             style="@style/EditTextStyle"
             android:layout_width="match_parent"
@@ -130,7 +130,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <com.hjq.widget.view.ScaleImageView
+        <com.chinaunicom.widget.view.ScaleImageView
             android:id="@+id/iv_login_qq"
             android:layout_width="35dp"
             android:layout_height="35dp"
@@ -142,7 +142,7 @@
             android:src="@drawable/ic_login_qq"
             app:scaleRatio="1.2" />
 
-        <com.hjq.widget.view.ScaleImageView
+        <com.chinaunicom.widget.view.ScaleImageView
             android:id="@+id/iv_login_wx"
             android:layout_width="35dp"
             android:layout_height="35dp"

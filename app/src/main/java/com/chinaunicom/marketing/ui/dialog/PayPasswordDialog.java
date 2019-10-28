@@ -15,8 +15,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.chinaunicom.marketing.common.MyDialogFragment;
 import com.chinaunicom.marketing.common.MyRecyclerViewAdapter;
 import com.chinaunicom.marketing.widget.PasswordView;
-import com.hjq.base.BaseDialog;
-import com.hjq.base.BaseRecyclerViewAdapter;
+import com.chinaunicom.base.BaseDialog;
+import com.chinaunicom.base.BaseRecyclerViewAdapter;
 import com.hjq.demo.R;
 
 import java.util.Arrays;

@@ -9,10 +9,10 @@ import com.chinaunicom.marketing.other.EventBusManager;
 import com.chinaunicom.marketing.ui.example.CrashActivity;
 import com.chinaunicom.marketing.ui.example.HomeActivity;
 import com.hjq.demo.BuildConfig;
-import com.hjq.image.ImageLoader;
+import com.chinaunicom.image.ImageLoader;
 import com.hjq.toast.ToastInterceptor;
 import com.hjq.toast.ToastUtils;
-import com.hjq.umeng.UmengClient;
+import com.chinaunicom.umeng.UmengClient;
 import com.squareup.leakcanary.LeakCanary;
 import com.tencent.bugly.crashreport.CrashReport;
 

@@ -7,7 +7,7 @@ import androidx.annotation.StringRes;
 import androidx.fragment.app.FragmentActivity;
 
 import com.chinaunicom.marketing.common.MyDialogFragment;
-import com.hjq.base.BaseDialog;
+import com.chinaunicom.base.BaseDialog;
 import com.hjq.demo.R;
 
 /**

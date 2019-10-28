@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         app:title="@string/about_title" />
 
-    <com.hjq.widget.view.ScaleImageView
+    <com.chinaunicom.widget.view.ScaleImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="50dp"

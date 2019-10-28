@@ -10,7 +10,7 @@ import com.chinaunicom.marketing.helper.InputTextHelper;
 import com.chinaunicom.marketing.other.IntentKey;
 import com.gyf.immersionbar.ImmersionBar;
 import com.hjq.demo.R;
-import com.hjq.widget.view.CountdownView;
+import com.chinaunicom.widget.view.CountdownView;
 
 import butterknife.BindView;
 import butterknife.OnClick;

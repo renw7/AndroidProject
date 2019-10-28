@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.chinaunicom.marketing.common.MyRecyclerViewAdapter;
 import com.hjq.demo.R;
-import com.hjq.image.ImageLoader;
+import com.chinaunicom.image.ImageLoader;
 
 import java.util.List;
 

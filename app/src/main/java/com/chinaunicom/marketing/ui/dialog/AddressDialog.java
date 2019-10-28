@@ -19,8 +19,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.chinaunicom.marketing.common.MyDialogFragment;
 import com.chinaunicom.marketing.common.MyRecyclerViewAdapter;
 import com.google.android.material.tabs.TabLayout;
-import com.hjq.base.BaseDialog;
-import com.hjq.base.BaseRecyclerViewAdapter;
+import com.chinaunicom.base.BaseDialog;
+import com.chinaunicom.base.BaseRecyclerViewAdapter;
 import com.hjq.demo.R;
 
 import org.json.JSONArray;

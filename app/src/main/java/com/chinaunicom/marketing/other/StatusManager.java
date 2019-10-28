@@ -13,10 +13,10 @@ import androidx.annotation.StringRes;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 
-import com.hjq.base.BaseDialog;
+import com.chinaunicom.base.BaseDialog;
 import com.hjq.demo.R;
 import com.chinaunicom.marketing.ui.dialog.WaitDialog;
-import com.hjq.widget.layout.HintLayout;
+import com.chinaunicom.widget.layout.HintLayout;
 
 import static android.Manifest.permission.ACCESS_NETWORK_STATE;
 

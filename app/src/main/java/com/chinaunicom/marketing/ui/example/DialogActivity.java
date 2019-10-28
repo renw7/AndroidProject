@@ -8,14 +8,14 @@ import android.widget.ImageView;
 
 import androidx.annotation.Nullable;
 
-import com.hjq.base.BaseDialog;
-import com.hjq.base.BaseDialogFragment;
+import com.chinaunicom.base.BaseDialog;
+import com.chinaunicom.base.BaseDialogFragment;
 import com.hjq.demo.R;
 import com.chinaunicom.marketing.common.MyActivity;
 import com.chinaunicom.marketing.ui.dialog.PayPasswordDialog;
 import com.chinaunicom.marketing.ui.dialog.ShareDialog;
 import com.chinaunicom.marketing.ui.dialog.UpdateDialog;
-import com.hjq.demo.wxapi.WXEntryActivity;
+import com.chinaunicom.demo.wxapi.WXEntryActivity;
 import com.chinaunicom.marketing.ui.dialog.AddressDialog;
 import com.chinaunicom.marketing.ui.dialog.DateDialog;
 import com.chinaunicom.marketing.ui.dialog.InputDialog;
@@ -24,9 +24,9 @@ import com.chinaunicom.marketing.ui.dialog.MessageDialog;
 import com.chinaunicom.marketing.ui.dialog.TimeDialog;
 import com.chinaunicom.marketing.ui.dialog.ToastDialog;
 import com.chinaunicom.marketing.ui.dialog.WaitDialog;
-import com.hjq.umeng.Platform;
-import com.hjq.umeng.UmengClient;
-import com.hjq.umeng.UmengShare;
+import com.chinaunicom.umeng.Platform;
+import com.chinaunicom.umeng.UmengClient;
+import com.chinaunicom.umeng.UmengShare;
 
 import java.util.ArrayList;
 import java.util.Calendar;

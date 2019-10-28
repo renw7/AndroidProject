@@ -17,11 +17,11 @@ import com.chinaunicom.marketing.common.MyActivity;
 import com.chinaunicom.marketing.helper.InputTextHelper;
 import com.chinaunicom.marketing.other.IntentKey;
 import com.chinaunicom.marketing.other.KeyboardWatcher;
-import com.hjq.demo.wxapi.WXEntryActivity;
-import com.hjq.image.ImageLoader;
-import com.hjq.umeng.Platform;
-import com.hjq.umeng.UmengClient;
-import com.hjq.umeng.UmengLogin;
+import com.chinaunicom.demo.wxapi.WXEntryActivity;
+import com.chinaunicom.image.ImageLoader;
+import com.chinaunicom.umeng.Platform;
+import com.chinaunicom.umeng.UmengClient;
+import com.chinaunicom.umeng.UmengLogin;
 
 import butterknife.BindView;
 import butterknife.OnClick;

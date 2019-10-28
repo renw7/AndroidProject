@@ -8,7 +8,7 @@ import androidx.annotation.LayoutRes;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
-import com.hjq.base.BaseListViewAdapter;
+import com.chinaunicom.base.BaseListViewAdapter;
 import com.hjq.toast.ToastUtils;
 
 import java.util.ArrayList;

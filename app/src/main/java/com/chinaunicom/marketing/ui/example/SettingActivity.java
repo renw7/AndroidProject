@@ -3,7 +3,7 @@ package com.chinaunicom.marketing.ui.example;
 import android.view.Gravity;
 import android.view.View;
 
-import com.hjq.base.BaseDialog;
+import com.chinaunicom.base.BaseDialog;
 import com.hjq.demo.R;
 import com.chinaunicom.marketing.common.MyActivity;
 import com.chinaunicom.marketing.helper.ActivityStackManager;
@@ -11,9 +11,9 @@ import com.chinaunicom.marketing.helper.CacheDataManager;
 import com.chinaunicom.marketing.other.AppConfig;
 import com.chinaunicom.marketing.ui.dialog.MenuDialog;
 import com.chinaunicom.marketing.ui.dialog.UpdateDialog;
-import com.hjq.image.ImageLoader;
-import com.hjq.widget.layout.SettingBar;
-import com.hjq.widget.view.SwitchButton;
+import com.chinaunicom.image.ImageLoader;
+import com.chinaunicom.widget.layout.SettingBar;
+import com.chinaunicom.widget.view.SwitchButton;
 
 import butterknife.BindView;
 import butterknife.OnClick;

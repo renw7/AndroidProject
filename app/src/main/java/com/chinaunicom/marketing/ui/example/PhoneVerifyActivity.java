@@ -8,7 +8,7 @@ import android.widget.TextView;
 import com.hjq.demo.R;
 import com.chinaunicom.marketing.common.MyActivity;
 import com.chinaunicom.marketing.helper.InputTextHelper;
-import com.hjq.widget.view.CountdownView;
+import com.chinaunicom.widget.view.CountdownView;
 
 import butterknife.BindView;
 import butterknife.OnClick;

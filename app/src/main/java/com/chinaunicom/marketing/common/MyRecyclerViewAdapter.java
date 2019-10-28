@@ -7,7 +7,7 @@ import androidx.annotation.LayoutRes;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
-import com.hjq.base.BaseRecyclerViewAdapter;
+import com.chinaunicom.base.BaseRecyclerViewAdapter;
 import com.hjq.toast.ToastUtils;
 
 import java.util.ArrayList;

@@ -5,8 +5,8 @@ import android.view.View;
 import com.chinaunicom.marketing.ui.example.HomeActivity;
 import com.hjq.demo.R;
 import com.chinaunicom.marketing.common.MyLazyFragment;
-import com.hjq.widget.view.CountdownView;
-import com.hjq.widget.view.SwitchButton;
+import com.chinaunicom.widget.view.CountdownView;
+import com.chinaunicom.widget.view.SwitchButton;
 
 import butterknife.BindView;
 import butterknife.OnClick;

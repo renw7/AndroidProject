@@ -16,12 +16,12 @@ import com.chinaunicom.marketing.other.StatusManager;
 import com.gyf.immersionbar.ImmersionBar;
 import com.hjq.bar.OnTitleBarListener;
 import com.hjq.bar.TitleBar;
-import com.hjq.base.BaseActivity;
+import com.chinaunicom.base.BaseActivity;
 import com.hjq.base.BuildConfig;
 import com.hjq.demo.R;
 import com.chinaunicom.marketing.helper.ActivityStackManager;
 import com.hjq.toast.ToastUtils;
-import com.hjq.umeng.UmengClient;
+import com.chinaunicom.umeng.UmengClient;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;

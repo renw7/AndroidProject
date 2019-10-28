@@ -60,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1">
 
-                    <com.hjq.widget.view.RegexEditText
+                    <com.chinaunicom.widget.view.RegexEditText
                         android:id="@+id/et_register_phone"
                         style="@style/EditTextStyle"
                         android:layout_width="match_parent"
@@ -76,7 +76,7 @@
                         android:layout_gravity="bottom" />
                 </FrameLayout>
 
-                <com.hjq.widget.view.CountdownView
+                <com.chinaunicom.widget.view.CountdownView
                     android:id="@+id/cv_register_countdown"
                     style="@style/CountdownViewStyle" />
             </LinearLayout>
@@ -95,7 +95,7 @@
 
             <View style="@style/HorizontalLineStyle" />
 
-            <com.hjq.widget.view.PasswordEditText
+            <com.chinaunicom.widget.view.PasswordEditText
                 android:id="@+id/et_register_password1"
                 style="@style/EditTextStyle"
                 android:layout_width="match_parent"
@@ -107,7 +107,7 @@
 
             <View style="@style/HorizontalLineStyle" />
 
-            <com.hjq.widget.view.PasswordEditText
+            <com.chinaunicom.widget.view.PasswordEditText
                 android:id="@+id/et_register_password2"
                 style="@style/EditTextStyle"
                 android:layout_width="match_parent"
