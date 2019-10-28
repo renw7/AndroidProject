@@ -1,12 +1,13 @@
-package com.chinaunicom.marketing.ui.activity;
+package com.chinaunicom.marketing.ui.example;
 
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
+import com.hjq.demo.R;
 import com.chinaunicom.marketing.common.MyActivity;
 import com.chinaunicom.marketing.helper.InputTextHelper;
-import com.hjq.demo.R;
 import com.hjq.widget.view.CountdownView;
 
 import butterknife.BindView;
@@ -16,37 +17,35 @@ import butterknife.OnClick;
  *    author : Android
  *    github : https://github.com/renw7/AndroidProject
  *    time   : 2019/04/20
- *    desc   : 更换手机号
+ *    desc   : 校验手机号
  */
-public final class PhoneResetActivity extends MyActivity {
+public final class PhoneVerifyActivity extends MyActivity {
 
-    @BindView(R.id.et_phone_reset_phone)
-    EditText mPhoneView;
-    @BindView(R.id.et_phone_reset_code)
+    @BindView(R.id.tv_phone_verify_phone)
+    TextView mPhoneView;
+
+    @BindView(R.id.et_phone_verify_code)
     EditText mCodeView;
-
-    @BindView(R.id.cv_phone_reset_countdown)
+    @BindView(R.id.cv_phone_verify_countdown)
     CountdownView mCountdownView;
-
-    @BindView(R.id.btn_phone_reset_commit)
+    @BindView(R.id.btn_phone_verify_commit)
     Button mCommitView;
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_phone_reset;
+        return R.layout.activity_phone_verify;
     }
 
     @Override
     protected void initView() {
         InputTextHelper.with(this)
-                .addView(mPhoneView)
                 .addView(mCodeView)
                 .setMain(mCommitView)
                 .setListener(new InputTextHelper.OnInputTextListener() {
 
                     @Override
                     public boolean onInputChange(InputTextHelper helper) {
-                        return mPhoneView.getText().toString().length() == 11 && mCodeView.getText().toString().length() == 4;
+                        return mCodeView.getText().toString().length() == 4;
                     }
                 })
                 .build();
@@ -54,13 +53,13 @@ public final class PhoneResetActivity extends MyActivity {
 
     @Override
     protected void initData() {
-
+        mPhoneView.setText(String.format(getString(R.string.phone_verify_current_phone), "18888888888"));
     }
 
-    @OnClick({R.id.cv_phone_reset_countdown, R.id.btn_phone_reset_commit})
+    @OnClick({R.id.cv_phone_verify_countdown, R.id.btn_phone_verify_commit})
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.cv_phone_reset_countdown:
+            case R.id.cv_phone_verify_countdown:
                 // 获取验证码
                 if (mPhoneView.getText().toString().length() != 11) {
                     // 重置验证码倒计时控件
@@ -70,10 +69,9 @@ public final class PhoneResetActivity extends MyActivity {
                     toast(R.string.common_code_send_hint);
                 }
                 break;
-            case R.id.btn_phone_reset_commit:
-                // 更换手机号
-                toast(R.string.phone_reset_commit_succeed);
-                finish();
+            case R.id.btn_phone_verify_commit:
+                // 修改手机号
+                startActivityFinish(PhoneResetActivity.class);
                 break;
             default:
                 break;

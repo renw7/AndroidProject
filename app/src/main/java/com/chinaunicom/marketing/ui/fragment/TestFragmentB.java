@@ -2,7 +2,7 @@ package com.chinaunicom.marketing.ui.fragment;
 
 import android.view.View;
 
-import com.chinaunicom.marketing.ui.activity.HomeActivity;
+import com.chinaunicom.marketing.ui.example.HomeActivity;
 import com.hjq.demo.R;
 import com.chinaunicom.marketing.common.MyLazyFragment;
 import com.hjq.widget.view.CountdownView;

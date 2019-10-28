@@ -1,4 +1,4 @@
-package com.chinaunicom.marketing.ui.activity;
+package com.chinaunicom.marketing.ui.example;
 
 import com.hjq.demo.R;
 import com.chinaunicom.marketing.common.MyActivity;

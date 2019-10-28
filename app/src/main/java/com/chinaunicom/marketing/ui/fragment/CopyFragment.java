@@ -2,7 +2,7 @@ package com.chinaunicom.marketing.ui.fragment;
 
 import com.hjq.demo.R;
 import com.chinaunicom.marketing.common.MyLazyFragment;
-import com.chinaunicom.marketing.ui.activity.CopyActivity;
+import com.chinaunicom.marketing.ui.example.CopyActivity;
 
 /**
  *    author : Android

@@ -43,14 +43,14 @@
 
         <!-- 崩溃界面 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.CrashActivity"
+            android:name="com.chinaunicom.marketing.ui.example.CrashActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:process=":crash"
             android:screenOrientation="portrait" />
 
         <!-- 启动页面（因为使用了LauncherTheme，所以不要给这个Activity设置screenOrientation属性，会导致崩溃） -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.SplashActivity"
+            android:name="com.chinaunicom.marketing.ui.example.SplashActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:theme="@style/SplashTheme">
 
@@ -66,7 +66,7 @@
 
         <!-- App 首页 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.HomeActivity"
+            android:name="com.chinaunicom.marketing.ui.example.HomeActivity"
             android:alwaysRetainTaskState="true"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:launchMode="singleTask"
@@ -74,94 +74,94 @@
 
         <!-- 登录界面 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.LoginActivity"
+            android:name="com.chinaunicom.marketing.ui.example.LoginActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
 
         <!-- 注册界面 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.RegisterActivity"
+            android:name="com.chinaunicom.marketing.ui.example.RegisterActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
 
         <!-- 设置界面 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.SettingActivity"
+            android:name="com.chinaunicom.marketing.ui.example.SettingActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/setting_title"
             android:screenOrientation="portrait" />
 
         <!-- 忘记密码 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.PasswordForgetActivity"
+            android:name="com.chinaunicom.marketing.ui.example.PasswordForgetActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/password_forget_title"
             android:screenOrientation="portrait" />
 
         <!-- 重置密码 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.PasswordResetActivity"
+            android:name="com.chinaunicom.marketing.ui.example.PasswordResetActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/password_reset_title"
             android:screenOrientation="portrait" />
 
         <!-- 手机号校验 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.PhoneVerifyActivity"
+            android:name="com.chinaunicom.marketing.ui.example.PhoneVerifyActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/phone_verify_title"
             android:screenOrientation="portrait" />
 
         <!-- 手机号更换 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.PhoneResetActivity"
+            android:name="com.chinaunicom.marketing.ui.example.PhoneResetActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/phone_reset_title"
             android:screenOrientation="portrait" />
 
         <!-- 关于我们 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.AboutActivity"
+            android:name="com.chinaunicom.marketing.ui.example.AboutActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/about_title"
             android:screenOrientation="portrait" />
 
         <!-- 个人资料 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.PersonalDataActivity"
+            android:name="com.chinaunicom.marketing.ui.example.PersonalDataActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/personal_data_title"
             android:screenOrientation="portrait" />
 
         <!-- 浏览器 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.WebActivity"
+            android:name="com.chinaunicom.marketing.ui.example.WebActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/web_title"
             android:screenOrientation="portrait" />
 
         <!-- 图片选择 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.PhotoActivity"
+            android:name="com.chinaunicom.marketing.ui.example.PhotoActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/photo_title"
             android:screenOrientation="portrait" />
 
         <!-- 查看大图 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.ImageActivity"
+            android:name="com.chinaunicom.marketing.ui.example.ImageActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
 
         <!-- 对话框案例 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.DialogActivity"
+            android:name="com.chinaunicom.marketing.ui.example.DialogActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
 
         <!-- 状态案例 -->
         <activity
-            android:name="com.chinaunicom.marketing.ui.activity.StatusActivity"
+            android:name="com.chinaunicom.marketing.ui.example.StatusActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
 

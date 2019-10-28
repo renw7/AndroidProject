@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.chinaunicom.marketing.ui.activity.SplashActivity">
+    tools:context="com.chinaunicom.marketing.ui.example.SplashActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/iv_splash_bg"

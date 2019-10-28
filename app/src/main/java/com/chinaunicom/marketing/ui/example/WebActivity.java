@@ -1,4 +1,4 @@
-package com.chinaunicom.marketing.ui.activity;
+package com.chinaunicom.marketing.ui.example;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;

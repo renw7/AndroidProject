@@ -1,4 +1,4 @@
-package com.chinaunicom.marketing.ui.activity;
+package com.chinaunicom.marketing.ui.example;
 
 import android.view.View;
 import android.widget.Button;

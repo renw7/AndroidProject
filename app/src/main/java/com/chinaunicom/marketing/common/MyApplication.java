@@ -6,8 +6,8 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.chinaunicom.marketing.other.EventBusManager;
-import com.chinaunicom.marketing.ui.activity.CrashActivity;
-import com.chinaunicom.marketing.ui.activity.HomeActivity;
+import com.chinaunicom.marketing.ui.example.CrashActivity;
+import com.chinaunicom.marketing.ui.example.HomeActivity;
 import com.hjq.demo.BuildConfig;
 import com.hjq.image.ImageLoader;
 import com.hjq.toast.ToastInterceptor;

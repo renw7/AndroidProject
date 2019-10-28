@@ -1,4 +1,4 @@
-package com.chinaunicom.marketing.ui.activity;
+package com.chinaunicom.marketing.ui.example;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;

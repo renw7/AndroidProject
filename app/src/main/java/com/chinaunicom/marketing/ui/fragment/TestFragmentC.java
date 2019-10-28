@@ -4,8 +4,8 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.chinaunicom.marketing.ui.activity.HomeActivity;
-import com.chinaunicom.marketing.ui.activity.PhotoActivity;
+import com.chinaunicom.marketing.ui.example.HomeActivity;
+import com.chinaunicom.marketing.ui.example.PhotoActivity;
 import com.hjq.demo.R;
 import com.chinaunicom.marketing.common.MyLazyFragment;
 import com.hjq.image.ImageLoader;

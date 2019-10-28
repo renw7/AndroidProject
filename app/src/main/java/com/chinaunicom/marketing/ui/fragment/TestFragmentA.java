@@ -5,7 +5,7 @@ import android.widget.TextView;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 
-import com.chinaunicom.marketing.ui.activity.HomeActivity;
+import com.chinaunicom.marketing.ui.example.HomeActivity;
 import com.google.android.material.appbar.AppBarLayout;
 import com.gyf.immersionbar.ImmersionBar;
 import com.hjq.demo.R;
