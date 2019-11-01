@@ -197,6 +197,9 @@ dependencies {
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.4'
     releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
 
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    implementation 'com.squareup.okhttp3:okhttp:4.1.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
     // 网络请求（待发布）：https://github.com/getActivity/EasyHttp
 
     // 国际化：https://github.com/getActivity/MultiLanguages
