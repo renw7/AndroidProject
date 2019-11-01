@@ -200,7 +200,10 @@ dependencies {
     implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
     implementation 'com.squareup.okhttp3:okhttp:4.1.1'
     implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    implementation 'com.android.support:support-v4:25.3.1'
 
+    implementation 'com.android.support:appcompat-v7:26.1.1'
+    implementation 'com.android.support:design:28.0.0'
 
     // 网络请求（待发布）：https://github.com/getActivity/EasyHttp
 

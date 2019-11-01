@@ -28,6 +28,10 @@ public class OkHttpDemoBL {
     //云服务器地址
     private String url = "http://10.52.200.150/tblstaffinfo/page";
 
+    private String url2 = "http://10.52.200.150/tblstaffinfo/page";
+
+    private String url3 = "http://10.52.200.150/tblstaffinfo/page";
+
     //本机测试地址
 //    private String url = "http://10.52.200.150/tbluserinfo/page";
 
@@ -40,8 +44,10 @@ public class OkHttpDemoBL {
             @Override
             public void onSuccess(String response) {
                 ArrayList<Map> list = json2List(response);
+
+
                 //下面通过异常方式返回给ui层
-                Intent intent = new Intent(ConstantsUtil.ACTION_APP_INNER_BROADCAST);
+                Intent intent = new Intent("abc");
                 Bundle bundle = new Bundle();
                 bundle.putSerializable("list", list);
                 intent.putExtras(bundle);       //向广播接收器传递数据
@@ -59,15 +65,17 @@ public class OkHttpDemoBL {
 
 
 
+
+
     private ArrayList<Map> json2List(String result){
         ArrayList<Map> recordList = new ArrayList<>();
 
         try {
-            JSONObject jsonObject = new JSONObject(result);
-            String code = jsonObject.getString("code");
+            JSONObject root = new JSONObject(result);
+            String code = root.getString("code");
 
             if ("200".equals(code)) {
-                JSONArray jsonArray = jsonObject.getJSONObject("data").getJSONArray("records");
+                JSONArray jsonArray = root.getJSONObject("data").getJSONArray("records");
                 for (int i = 0; i < jsonArray.length(); i++) {
                     JSONObject record = jsonArray.getJSONObject(i);
                     Map map = new HashMap();
