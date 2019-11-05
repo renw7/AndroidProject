@@ -46,7 +46,7 @@ public final class HttpDemoActivity extends Activity {
 
         OkHttpDemoBL okHttpDemoBL = new OkHttpDemoBL();
         Map param = new HashMap<>();
-        okHttpDemoBL.getUserInfoAllAsyn(param, this.getApplicationContext());
+//        okHttpDemoBL.getUserInfoAllAsyn(param, this.getApplicationContext());
 
     }
 

@@ -39,29 +39,29 @@ public class OkHttpDemoBL {
      * 异步http调用
      * @param param
      */
-    public void getUserInfoAllAsyn(Map param, Context context){
-        OkHttpClientUtils.getInstance().doGetAsyn(url, new OkHttpClientUtils.NetWorkCallBack(){
-            @Override
-            public void onSuccess(String response) {
-                ArrayList<Map> list = json2List(response);
-
-
-                //下面通过异常方式返回给ui层
-                Intent intent = new Intent("abc");
-                Bundle bundle = new Bundle();
-                bundle.putSerializable("list", list);
-                intent.putExtras(bundle);       //向广播接收器传递数据
-                context.sendBroadcast(intent);
-            }
-
-            @Override
-            public void onFail(String response) {
-                System.out.println(response);
-            }
-        });
-
-    }
-
+//    public void getUserInfoAllAsyn(Map param, Context context){
+////        OkHttpClientUtils.getInstance().doGetAsyn(url, new OkHttpClientUtils.NetWorkCallBack(){
+////            @Override
+////            public void onSuccess(String response) {
+////                ArrayList<Map> list = json2List(response);
+////
+////
+////                //下面通过异常方式返回给ui层
+////                Intent intent = new Intent("abc");
+////                Bundle bundle = new Bundle();
+////                bundle.putSerializable("list", list);
+////                intent.putExtras(bundle);       //向广播接收器传递数据
+////                context.sendBroadcast(intent);
+////            }
+//
+//            @Override
+//            public void onFail(String response) {
+//                System.out.println(response);
+//            }
+//        });
+//
+//    }
+//
 
 
 

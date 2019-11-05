@@ -65,8 +65,8 @@ public class TabLayoutActivity extends Activity {
         OkHttpDemoBL okHttpDemoBL = new OkHttpDemoBL();
         //传递参数
         Map param = new HashMap<>();
-//        param.put("username", "张三");
-        okHttpDemoBL.getUserInfoAllAsyn(param, this.getApplicationContext());
+        param.put("username", "张三");
+//        okHttpDemoBL.getUserInfoAllAsyn(param, this.getApplicationContext());
     }
 
 
