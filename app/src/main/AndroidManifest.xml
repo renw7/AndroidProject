@@ -53,15 +53,6 @@
             android:name="com.chinaunicom.marketing.ui.example.SplashActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:theme="@style/SplashTheme">
-
-            <!-- 程序入口 -->
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
         </activity>
 
         <!-- App 首页 -->
@@ -162,6 +153,37 @@
         <!-- 状态案例 -->
         <activity
             android:name="com.chinaunicom.marketing.ui.example.StatusActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.chinaunicom.marketing.ui.activity.TaskMainActivity" >
+            <!-- 程序入口 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.chinaunicom.marketing.ui.activity.TaskListActivity" >
+
+        </activity>
+        <activity android:name="com.chinaunicom.marketing.ui.activity.TaskDetailsActivity" />
+
+        <activity
+            android:name="com.chinaunicom.marketing.ui.activity.TabLayoutActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+
+            <!-- 程序入口 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chinaunicom.marketing.ui.activity.CallDetailActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
 
