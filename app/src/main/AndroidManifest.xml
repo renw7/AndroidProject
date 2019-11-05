@@ -169,6 +169,24 @@
         </activity>
         <activity android:name="com.chinaunicom.marketing.ui.activity.TaskDetailsActivity" />
 
+        <activity
+            android:name="com.chinaunicom.marketing.ui.activity.TabLayoutActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+
+            <!-- 程序入口 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chinaunicom.marketing.ui.activity.CallDetailActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>
