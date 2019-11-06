@@ -97,4 +97,20 @@
         <item name="cardCornerRadius">999dp</item>
     </style>
 
+    <!-- 点击按钮样式 -->
+    <style name="CountdownButtonViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_countdown</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:minWidth">90dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/common_code_send</item>
+        <item name="android:textColor">@drawable/selector_countdown_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
 </resources>

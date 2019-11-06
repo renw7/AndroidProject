@@ -1,6 +1,19 @@
 <resources>
     <string name="app_name">安卓架构</string>
 
+    <!-- 拨打界面 -->
+    <string name="dial_title">拨打电话</string>
+    <string name="dial_cust_info_btn">用户画像</string>
+    <string name="dial_voice_content_btn">话术</string>
+    <string name="dial_pro_recommend">推荐产品</string>
+    <string name="dial_pro_recommend_detail">冰激凌</string>
+    <string name="dial_pro_intention">订购意向</string>
+    <string name="dial_choose">请选择</string>
+    <string name="dial_remask">备&#8195;&#8195;注</string>
+    <string name="dial_dial">打电话</string>
+    <string name="dial_sms">发短信</string>
+    <string name="dial_complete">完成</string>
+
     <!-- 通用的 -->
     <string name="common_phone_input_hint">输入手机号码</string>
     <string name="common_phone_input_error">手机号输入不正确</string>
