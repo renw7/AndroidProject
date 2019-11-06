@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TabHost;
+
 import com.chinaunicom.marketing.bl.OkHttpDemoBL;
 import com.chinaunicom.marketing.helper.ConstantsUtil;
 import com.hjq.demo.R;
@@ -38,9 +39,8 @@ public class TabLayoutActivity extends Activity {
         //初始化TabHost容器
         tab.setup();
         //在TabHost创建标签，然后设置：标题／图标／标签页布局
-        tab.addTab(tab.newTabSpec("tab1").setIndicator("全部通话" , null).setContent(R.id.tab1));
-        tab.addTab(tab.newTabSpec("tab2").setIndicator("意向通话" , null).setContent(R.id.tab2));
-
+        tab.addTab(tab.newTabSpec("tab1").setIndicator("全部通话", null).setContent(R.id.tab1));
+        tab.addTab(tab.newTabSpec("tab2").setIndicator("意向通话", null).setContent(R.id.tab2));
 
 
         listview1 = findViewById(R.id.listview1);//获取列表视图
@@ -50,20 +50,40 @@ public class TabLayoutActivity extends Activity {
         listview2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> var1, View view, int pos, long l) {
-                Map<String,String> map = new HashMap();
+                Map<String, String> map = new HashMap();
 //                Map<String,String> map2= new HashMap();
-                map=(Map)var1.getItemAtPosition(pos);
+                map = (Map) var1.getItemAtPosition(pos);
 //                map2.put("createUser",map.get("createUser"));
 
                 Intent it = new Intent(
                         TabLayoutActivity.this,
                         CallDetailActivity.class);
-                it.putExtra("serialNumber", map.get("serialNumber"));
-                it.putExtra("taskId", map.get("taskId"));
-                it.putExtra("startTime", map.get("startTime"));
-                it.putExtra("endTime", map.get("endTime"));
-                it.putExtra("resultCode", map.get("resultCode"));
-                it.putExtra("remark", map.get("remark"));
+                it.putExtra("recordId", map.get("recordId"));
+//                it.putExtra("taskId", map.get("taskId"));
+//                it.putExtra("startTime", map.get("startTime"));
+//                it.putExtra("endTime", map.get("endTime"));
+//                it.putExtra("resultCode", map.get("resultCode"));
+//                it.putExtra("remark", map.get("remark"));
+                startActivity(it);
+            }
+        });
+        listview1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> var1, View view, int pos, long l) {
+                Map<String, String> map = new HashMap();
+//                Map<String,String> map2= new HashMap();
+                map = (Map) var1.getItemAtPosition(pos);
+//                map2.put("createUser",map.get("createUser"));
+
+                Intent it = new Intent(
+                        TabLayoutActivity.this,
+                        CallDetailActivity.class);
+                it.putExtra("recordId", map.get("recordId"));
+//                it.putExtra("taskId", map.get("taskId"));
+//                it.putExtra("startTime", map.get("startTime"));
+//                it.putExtra("endTime", map.get("endTime"));
+//                it.putExtra("resultCode", map.get("resultCode"));
+//                it.putExtra("remark", map.get("remark"));
                 startActivity(it);
             }
         });
@@ -104,12 +124,14 @@ public class TabLayoutActivity extends Activity {
 
 
     }
+
     private BroadcastReceiver mReceiver = new DataReceiver();
+
     class DataReceiver extends BroadcastReceiver {
         @Override
         public void onReceive(Context context, Intent intent) {
-            List<Map<String, String>> list = (List)intent.getExtras().get("list");
-            System.out.println("size="+list.size());
+            List<Map<String, String>> list = (List) intent.getExtras().get("list");
+            System.out.println("size=" + list.size());
 
             SimpleAdapter adapter1 = new SimpleAdapter(TabLayoutActivity.this, list, R.layout.activity_record,
                     new String[]{"serialNumber", "startTime"}, new int[]{R.id.call_number, R.id.call_time});
@@ -117,11 +139,11 @@ public class TabLayoutActivity extends Activity {
             listview1.setAdapter(adapter1);
 
 
-            List<Map<String,String>> list2=new ArrayList();
+            List<Map<String, String>> list2 = new ArrayList();
 
-            for(int i=0;i<list.size();i++){
+            for (int i = 0; i < list.size(); i++) {
 
-                if((list.get(i).get("resultCode")=="2")|(list.get(i).get("resultCode").equals("2"))){
+                if ((list.get(i).get("resultCode") == "2") | (list.get(i).get("resultCode").equals("2"))) {
 
                     list2.add(list.get(i));
                 }

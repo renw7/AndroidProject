@@ -28,9 +28,8 @@ public class OkHttpDemoBL {
     //云服务器地址
     private String url = "http://119.29.106.248/tblcallrecord/page";
 
-    private String url2 = "http://10.52.200.150/tblstaffinfo/page";
 
-    private String url3 = "http://10.52.200.150/tblstaffinfo/page";
+
 
     //本机测试地址
 //    private String url = "http://10.52.200.150/tbluserinfo/page";
@@ -63,10 +62,6 @@ public class OkHttpDemoBL {
     }
 
 
-
-
-
-
     private ArrayList<Map> json2List(String result){
         ArrayList<Map> recordList = new ArrayList<>();
 
@@ -80,6 +75,7 @@ public class OkHttpDemoBL {
                     JSONObject record = jsonArray.getJSONObject(i);
                     Map map = new HashMap();
                     map.put("createUser", record.getString("createUser"));
+                    map.put("recordId", record.getString("recordId"));
                     map.put("createTime", record.getString("createTime"));
                     map.put("updateUser", record.getString("updateUser"));
                     map.put("updateTime", record.getString("updateTime"));
@@ -94,6 +90,8 @@ public class OkHttpDemoBL {
                     map.put("callTimes", record.getString("callTimes"));
                     map.put("remark", record.getString("remark"));
                     map.put("staffId", record.getString("staffId"));
+                    map.put("resultDesc", record.getString("resultDesc"));
+                    map.put("taskName", record.getString("taskName"));
                     recordList.add(map);
                 }
             }
@@ -107,6 +105,34 @@ public class OkHttpDemoBL {
             return recordList;
         }
     }
+    public void getUserInfoAllAsyn2(Map param, String url2, Context context){
+        OkHttpClientUtils.getInstance().doGetAsyn(url2, param,new OkHttpClientUtils.NetWorkCallBack(){
+            @Override
+            public void onSuccess(String response) {
+                ArrayList<Map> list = json2List(response);
+
+
+                //下面通过异常方式返回给ui层
+                Intent intent = new Intent("det");
+                Bundle bundle = new Bundle();
+                bundle.putSerializable("list", list);
+                intent.putExtras(bundle);       //向广播接收器传递数据
+                context.sendBroadcast(intent);
+            }
+
+            @Override
+            public void onFail(String response) {
+                System.out.println(response);
+            }
+        });
+
+    }
+
+
+
+
+
+
 
 
 }
